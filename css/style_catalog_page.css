@@ -1,0 +1,92 @@
+
+.bag_panel{
+  padding: 17px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.title_category{
+  font-size: 18px;
+  font-weight: 400;
+}
+.search{
+  display: flex;
+  gap: 80px;
+  align-items: flex-end;
+}
+.search div {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+
+}
+.search div input, .search div .button_search{
+  outline: none;
+  
+  border: none;
+}
+
+.search_input{
+  background: #CEC3BC;
+  width: 370px;
+  height: 35px;
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+input::placeholder {
+  color: #ffffffaf;
+}
+
+
+.search div .button_search{
+  /* margin-right: 10px; */
+  width: 30px;
+  height: 30px;
+  background: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search div .column{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.search div .column p{
+  font-size: 14px;
+}
+.search div .column select{
+  background: none;
+  outline: none;
+  border: none;
+  color: #685b53;
+}
+.search div .column select:hover{
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.button_filter{
+  width: 130px;
+  font-size: 16px;
+}
+.button_filter a{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+

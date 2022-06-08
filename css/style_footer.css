@@ -1,0 +1,29 @@
+.container_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.menu_footer{
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.menu_footer li{
+    width: 280px;
+}
+
+.container_links .social_links{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer p{
+    align-self: center;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}

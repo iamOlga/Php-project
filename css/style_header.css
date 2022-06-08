@@ -1,0 +1,63 @@
+header{
+    display: flex;
+    flex-direction: row;
+    height: 67px;
+    width: 100%;
+    background-color: #F3F0EE;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+header .container_account_bag{
+    display: flex;
+    gap: 32px;
+}
+header #img_header_menu{
+  margin-right: 53px;
+}
+
+.container_account_bag .button_account, .container_account_bag .button_bag{
+  background-repeat: no-repeat;
+  border: none;
+  width: 21px;
+  height: 21px;
+}
+
+.container_account_bag .button_account{
+  background: url(../images/icon_account.png);
+}
+.container_account_bag .button_bag{
+  background: url(../images/icon_bag.png);
+}
+
+.submenu {
+  position: absolute;
+  padding: 20px 20px;
+  top: 67px;
+  left: 0;
+  width: 350px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.submenu input {
+  color: #000000;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  text-align: left;
+}
+
+.submenu {
+  visibility: hidden;
+  background: #F3F0EE;
+  
+}
+header li:hover .submenu {
+  visibility: visible;
+}

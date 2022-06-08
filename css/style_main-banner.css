@@ -1,0 +1,29 @@
+.main_banner{
+  background-image: url(../images/desert.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 633px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.main_banner img{
+margin-right: 20%;
+}
+.container_titles{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-left: 50px;
+}
+.container_titles .title_banner{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.container_titles .info_banner{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+

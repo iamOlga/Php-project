@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+    color: #000000;
+    list-style-type: none;
+}
+
+body{
+  background-color: #E5E0DD;
+}
+
+button, input{
+  border: none;
+}
+
+button:hover, input:hover{
+  cursor: pointer;
+}
+input:focus{
+  outline: none;
+}
+
+.input_account{
+  outline: none;
+  background: #F1EEEC;
+  border: none;
+  border-bottom: 1px #CEC3BC solid;
+  width: 352px;
+  height: 45px;
+  padding-left: 10px;
+  color: #000000;
+  font-size: 14px;
+}
+.input_account::placeholder {
+  color: #B8A59A;
+}
+
+
+.title_panel{
+  padding: 17px 50px;
+  }
+.title_h3{
+  font-size: 25px;
+  margin-bottom: 26px;
+}
+
+._container{
+  display: flex;
+  margin-top: 30px;
+  align-items: start;
+  justify-content: center;
+}
+
+
+.banner img{
+  width: 100%;
+}
+
+/* основной контейнер блока */
+.container{
+  display: flex;
+  flex-direction: column; 
+  /* margin-top: 100px; */
+  padding: 0 50px;
+}
+
+
+/* черная кнопка */
+.black_button {
+    font-size: 16px;
+    background: #000000;
+    color: #EAE1D2;
+    border: 2px solid #000000;
+    padding: 13px 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    min-width: 200px;
+    min-height: 47px;
+  }
+  .black_button:hover {
+    color: #000000;
+    background: #EAE1D2;
+    cursor: pointer;
+  }
+
+
+
+  /* карточка товара */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 46px;
+}
+.products .product{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+.products .product .product_img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.products .product .add{
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+}
+.add_ordinary{
+  background: none;
+  background-image: url(../images/img_add_ordinary.png);
+}
+.add_ordinary:focus{
+  background: none;
+  background-image: url(../images/img_add_click.png);
+}
+.add_done{
+  background: none;
+  background-image: url(../images/img_add_done.png);
+}
+.products .product .product_name{
+    font-size: 16px;
+    letter-spacing: -0.8px;
+    padding-bottom: 10px;
+    text-align: center;
+    min-height: 47px;
+}
+.products .product .product_price{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.account_button_div{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
